@@ -1,0 +1,196 @@
+{
+  "requirements": [
+    {
+      "bonus": false,
+      "description": "1.1 - Retorne, para uma entrada específica, a quantidade de estudantes presentes",
+      "enabled": true,
+      "identifier": "test_study_schedule_success",
+      "order": 1,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "1.2 - Retorne `None` se em `permanence_period` houver alguma entrada inválida",
+      "enabled": true,
+      "identifier": "test_study_schedule_invalid_permanence_periods",
+      "order": 2,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "1.3 - Retorne `None` se  `target_time` recebe um valor vazio",
+      "enabled": true,
+      "identifier": "test_study_schedule_empty_target_time",
+      "order": 3,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "1.4 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n), ou seja, com complexidade assintótica linear",
+      "enabled": true,
+      "identifier": "test_evaluate_time_study_schedule",
+      "order": 4,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "2 - Implementar adequadamente o teste para a função `encrypt_message`",
+      "enabled": true,
+      "identifier": "test_encrypt_message[encrypt_message]",
+      "order": 5,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3.1 - Retorne `True` se a palavra passada por parâmetro for um palíndromo",
+      "enabled": true,
+      "identifier": "test_recursive_palindrome_success",
+      "order": 6,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3.2 - Retorne `False` se a palavra passada por parâmetro não for um palíndromo",
+      "enabled": true,
+      "identifier": "test_not_recursive_palindrome",
+      "order": 7,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "3.3 - Retorne `False` se nenhuma palavra for passada por parâmetro",
+      "enabled": true,
+      "identifier": "test_not_recursive_palindrome_when_empty_input",
+      "order": 8,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4.1 - Retorne `True` se as palavras passadas forem anagramas",
+      "enabled": true,
+      "identifier": "test_words_are_anagrams",
+      "order": 9,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4.2 - Retorne `False` se as palavras passadas por parâmetro não forem anagramas",
+      "enabled": true,
+      "identifier": "test_words_are_not_anagrams",
+      "order": 10,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4.3 - Retorne `false` se alguma das palavras passadas por parâmetro for uma string vazia",
+      "enabled": true,
+      "identifier": "test_empty_string_anagram",
+      "order": 11,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4.4 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n log n), ou seja, com complexidade assintótica linearítmica",
+      "enabled": true,
+      "identifier": "test_evaluate_time_anagram",
+      "order": 12,
+      "skill_ids": []
+    },
+    {
+      "bonus": false,
+      "description": "4.5 - Retorne `True` se as palavras passadas forem anagramas sem diferenciar maiúsculas e minúsculas",
+      "enabled": true,
+      "identifier": "test_words_are_anagrams_case_insensitive",
+      "order": 13,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.1 - Retorne o número repetido se a função receber como parâmetro uma lista com números repetidos",
+      "enabled": true,
+      "identifier": "test_find_duplicate_number_with_success",
+      "order": 14,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.2 - Retorne `False` se a função não receber nenhum parâmetro",
+      "enabled": true,
+      "identifier": "test_not_duplicate_when_empty_input",
+      "order": 15,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.3 - Retorne `False` se a função receber, como parâmetro, uma string",
+      "enabled": true,
+      "identifier": "test_not_duplicate_when_string_input",
+      "order": 16,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.4 - Retorne `False` se a função receber, como parâmetro, uma lista sem números repetidos",
+      "enabled": true,
+      "identifier": "test_not_duplicate_numbers",
+      "order": 17,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.5 - Retorne `False` se a função receber, como parâmetro, apenas um valor",
+      "enabled": true,
+      "identifier": "test_not_duplicate_when_single_number",
+      "order": 18,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.6 - Retorne `False` se a função receber, como parâmetro, um número negativo",
+      "enabled": true,
+      "identifier": "test_not_duplicate_when_negative_numbers",
+      "order": 19,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "5.7 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n log n), ou seja, com complexidade assintótica linearítmica.",
+      "enabled": true,
+      "identifier": "test_evaluate_time_find_the_duplicate",
+      "order": 20,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "6.1 - Retorne `True` se a palavra passada como parâmetro for um palíndromo, executando uma função iterativa",
+      "enabled": true,
+      "identifier": "test_iterative_palindrome_success",
+      "order": 21,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "6.2 - Retorne `False` se a palavra passada como parâmetro não for um palíndromo, executando uma função iterativa",
+      "enabled": true,
+      "identifier": "test_not_iterative_palindrome",
+      "order": 22,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "6.3 - Retorne `False` se nenhuma palavra for passada como parâmetro, executando uma função iterativa",
+      "enabled": true,
+      "identifier": "test_not_iterative_palindrome_when_empty_input",
+      "order": 23,
+      "skill_ids": []
+    },
+    {
+      "bonus": true,
+      "description": "6.4 - A função deverá, por meio de análise empírica, se comportar (no avaliador remoto em sua Pull Request) como no máximo O(n), ou seja, com complexidade assintótica linear.",
+      "enabled": true,
+      "identifier": "test_evaluate_time_iterative_palindrome",
+      "order": 24,
+      "skill_ids": []
+    }
+  ]
+}
