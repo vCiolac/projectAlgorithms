@@ -16,7 +16,7 @@ def is_anagram(first_string, second_string):
 
 def merge_sort(value):
     if len(value) <= 1:
-        return value 
+        return value
     mid = len(value) // 2
     left = merge_sort(value[:mid])
     right = merge_sort(value[mid:])
